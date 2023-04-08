@@ -4,7 +4,7 @@
 /**
  * _atoi - converts a string to an integer
  * @s: string to be converted
- * Return: 1
+ * Return: the int converted from the string
  */
 
 int _atoi(char *s)
@@ -32,7 +32,7 @@ int _atoi(char *s)
 				digit = -digit;
 			n = n * 10 + digit;
 			f = 1;
-			if (s[j - 1] < '0' || s[j + 1] > '9')
+			if (s[j + 1] < '0' || s[j + 1] > '9')
 				break;
 			f = 0;
 		}
