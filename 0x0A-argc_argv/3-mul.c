@@ -20,9 +20,10 @@ int _atoi(char *s)
 
 	while (s[len] != '\0')
 		len++;
+
 	while (i < len && f == 0)
 	{
-		if (s[i] == '_')
+		if (s[i] == '-')
 			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')
@@ -38,6 +39,7 @@ int _atoi(char *s)
 		}
 		i++;
 	}
+
 	if (f == 0)
 		return (0);
 
