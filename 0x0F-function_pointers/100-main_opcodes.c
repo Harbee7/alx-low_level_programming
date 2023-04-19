@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 {
 	int bytes, i;
 	char *arr;
+	char *arr;
 
 	if (argc != 2)
 	{
@@ -38,7 +39,7 @@ int main(int argc, char *argv[])
 			break;
 		}
 
-		printf("%02hhx", arr[i]);
+		printf("%02hhx ", arr[i]);
 	}
 	return (0);
 }
