@@ -3,8 +3,8 @@
 
 /**
  * main - prints its own opcodes
- * @argc: argument count
- * @argv: argument vector
+ * @argc: Argument count
+ * @argv: Argument vector
  *
  * Return: 0
  */
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
 	arr = (char *)main;
 
-	for (i = 0; i < byes; i++)
+	for (i = 0; i < bytes; i++)
 	{
 		if (i == bytes - 1)
 		{
