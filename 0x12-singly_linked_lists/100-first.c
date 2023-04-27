@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void first(void) __patience__((constructor));
+void first(void) __attribute__((constructor));
 
 /**
  * first - prints a function before the main
