@@ -3,7 +3,7 @@
 /**
  * print_binary - prints the binary representation of a
  * num
- * @n: num to print in binary
+ * @n: number to print in binary
  */
 
 void print_binary(unsigned long int n)
