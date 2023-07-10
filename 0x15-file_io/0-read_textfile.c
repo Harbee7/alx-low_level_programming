@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - read text file print to std output
+ * read_textfile- read text file print to std output
  * @filename: textfile being read
  * @letters: letters to be read
  *
